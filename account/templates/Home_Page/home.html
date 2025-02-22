@@ -1,0 +1,520 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html class="no-js" lang="zxx">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+        <title>Dimroid - VeloxMed &amp; VeloxMed Powered by AI</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{% static "Home/bootstrap.min.css"  %}">
+        <link rel="stylesheet" href="{% static "Home/animate.min.css"  %}">
+        <link rel="stylesheet" href="{% static "Home/swiper.min.css"  %}">
+        <link rel="stylesheet" href="{% static "Home/magnific-popup.css"  %}">
+        <script src="https://kit.fontawesome.com/9b8147f8d2.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="{% static "Home/spacing.css"  %}" >
+        <link rel="stylesheet" href="{% static "Home/odometer-theme-default.css"  %}">
+        <link rel="stylesheet" href="{% static "Home/main.css"  %}">
+        <link rel="stylesheet" href="{% static "Home/style.css"  %}">
+        <link rel="stylesheet" href="{% static "Home/form.css" %}">
+
+    </head>
+
+<body class="body-1">
+<header>
+    <div id="header-sticky" class="header__area header-1">
+        <div class="container">
+            <div class="mega__menu-wrapper p-relative">
+                <div class="header__main">
+                    <div class="header__logo">
+                        <a href="#">
+                            <div class="logo">
+                                <p style="
+                                    font-style: normal;
+                                    display: inline-block;
+                                    color: var(--rr-menu-primary);
+                                    text-transform: capitalize;
+                                    font-family: var(--rr-ff-heading);
+                                    padding: 38px 0;
+                                    font-weight: 600;
+                                    font-size: 3rem;
+                                    line-height: 23px;
+                                ">Velox Med</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="mean__menu-wrapper d-none d-lg-block">
+                        <div class="main-menu">
+                            <nav id="mobile-menu" style="display: block;">
+                                <ul>
+                                    <li class="" style="color: #000;">
+                                        <a href="#">Home</a>
+                                    
+                                    </li>
+                                    <li class="">
+                                        <a href="#service">Pages</a>
+                                       
+                                    </li>
+                                    <li class="has-dropdown">
+                                        <a href="#fourth-section">Services</a>
+                                    </li>
+                                    <li class=""><a href="#footer-section">contact</a></li>
+                                    <li class="signup__hide" style="display: none;">
+                                        <a href="{% url "login" %}">Login</a>
+                                    </li>
+                                
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+
+                    <div class="header__right">
+                        <div class="header__action d-flex align-items-center">
+                            <div style="margin-right: 0px;" class="header__btn-wrap d-none d-sm-inline-flex">
+                                <a href="{% url "login" %}" class="rr-btn rr-btn__primary">
+                                    <span class="btn-wrap">
+                                        <span class="text-one">Login </span>
+                                        <span class="text-two">Login </span>
+                                    </span>
+                                </a>
+                            </div>
+
+                            <div style="margin-left: 10px;" class="header__btn-wrap d-none d-sm-inline-flex">
+                                <a href="{% url "register" %}" class="rr-btn rr-btn__primary">
+                                    <span class="btn-wrap">
+                                        <span class="text-one">Sign-up </span>
+                                        <span class="text-two">Sign-up </span>
+                                    </span>
+                                </a>
+                            </div>
+
+                            <div class="header__hamburger ml-20 d-xl-none">
+                                <div class="sidebar__toggle" style="margin-right: 30px;">
+                                    <a class="bar-icon" href="javascript:void(0)">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main class="body-background"> 
+    <section class="banner banner__space overflow-hidden">
+        <div class="container">
+            <div class="banner__shape">
+                <p> Velox Med</p>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="banner__content text-center">
+
+                        <h1 class="mb-25 mb-xs-20 title-animation" style="perspective: 100px;">
+                            <div
+                                style=" margin-bottom: 10px; position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform-origin: 100.977px 50px; transform: translate(0px, 0px); opacity: 1; visibility: inherit;">
+                                Velox
+                            </div>
+                            
+                            <div
+                                style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform-origin: 91.3516px 50px; transform: translate(0px, 0px); opacity: 1; visibility: inherit;">
+                                Med
+                            </div>
+                            
+                            <div
+                                style="position: relative; display: block; translate: none; rotate: none; scale: none; transform-origin: 246.555px 50px; transform: translate(0px, 0px); opacity: 1; visibility: inherit;">
+                            <p> </p>
+                            </div>
+                            
+                            <div
+                                style="font-size: 0.5em; position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform-origin: 37.4688px 50px; transform: translate(0px, 0px); opacity: 1; visibility: inherit;">
+                                Fast-Tracking Patient Care With Automation.
+
+                            </div>
+                            
+                        </h1>
+                        <a href="#third-sec" class="rr-btn">
+                            <div class="panel wow" style="display: none; animation-name: panel;"></div>
+                            <span class="btn-wrap">
+                                <span class="text-one">Read More <i class="fa-solid fa-plus"></i></span>
+                                <span class="text-two">Read More <i class="fa-solid fa-plus"></i></span>
+                            </span>
+                        </a>
+                        <div class="banner__media mt-45 mt-xs-35 position-relative">
+                            <div class="panel wow" style="visibility: visible; animation-name: panel;"></div>
+                            <img style="border-radius: 10px;" class="img-fluid" data-parallax="{&quot;scale&quot;: 1.2, &quot;smoothness&quot;: 15}" src="{% static "Home/Health_AI_.jpg" %}" alt="images not found">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="service">
+
+        <style>
+            
+            body {
+                color: #000;
+            }
+
+
+            .card {
+    width: 100%;
+    max-width: 270px;
+    height: auto;
+}
+
+@media (max-width: 1199px) {
+    .card {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 991px) {
+    .card {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .card {
+        max-width: 100%;
+    }
+    
+}
+
+.card-body {
+    overflow-y: scroll;
+    max-height: 300px; /* Adjust as needed */
+}
+
+.card-img-top {
+    width: 65px;
+    height: 65px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.row {
+    justify-content: center;
+}
+
+    </style>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="card rounded-5 h-100">
+                <img class="card-img-top fa-shake mx-auto mt-3" src="{% static 'Home/service__item-4.png' %}" style="width: 65px; height: 65px;" alt="icon not found">
+                <div class="card-body overflow-auto" style="overflow-y: scroll;">
+                    <h5 class="card-title" style="text-align: center;"> AI-Powered Smart Scheduling & Triage</h5>
+                    <p class="card-text">
+                        <li style="text-decoration: none;">
+                            <ol>Auto-assigns appointments based on patient severity, specialist availability, and real-time hospital capacity.</ol>
+                    </br>
+                            <ol>Reduces wait times, optimizes resource use, and prevents scheduling conflicts.</ol>
+                        </li>
+                        </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="card rounded-5 h-100">
+                <img class="card-img-top fa-shake mx-auto mt-3" src="{% static 'Home/service__item-4.png' %}" style="width: 65px; height: 65px;" alt="icon not found">
+                <div class="card-body overflow-auto" style="overflow-y: scroll;">
+                    <h5 class="card-title" style="text-align: center;">Automated Patient Follow-Ups & Notifications</h5>
+                    <p class="card-text">
+                        <li style="text-decoration: none;">
+                            <ol> AI-driven system automates patient follow-up reminders, reducing missed appointments and readmissions.</ol>
+                    </br>
+                            <ol>Doctors and nurses receive alerts when urgent care is required, preventing gaps in treatment.</ol>
+                        </li>
+                        </p>
+                
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+            <div class="card rounded-5 h-100">
+                <img class="card-img-top fa-shake mx-auto mt-3" src="{% static 'Home/service__item-4.png' %}" style="width: 65px; height: 65px;" alt="icon not found">
+                <div class="card-body overflow-auto" style="overflow-y: scroll;">
+                    <h5 class="card-title" style="text-align: center;" >Blockchain-powered health record system</h5>
+                    <p class="card-text">
+                        <li style="text-decoration: none;">
+                            <ol> Universal & Secure Access – Doctors can instantly retrieve patient records from any location, ensuring seamless healthcare coordination.</ol>
+                    </br>
+                            <ol>Privacy-Preserved Data Sharing – Patients control access via encrypted smart contracts, preventing unauthorized viewing while enabling emergency overrides with full audit logs.</ol>
+                        </li>
+                        </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+       </section>
+            
+    <section id="third-sec" class="about-us section-space overflow-hidden">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-6">
+                    <div class="section__title-wrapper about-us__content">
+
+                        <p class="mb-30 mb-xs-25">Veloxmed revolutionizes healthcare coordination with AI-powered smart scheduling & triage,
+                            automatically assigning appointments based on patient severity, specialist availability, and real-time hospital
+                            capacity to reduce wait times and optimize resources. Its automated follow-up and notification system ensures timely
+                            reminders, minimizing missed appointments and improving patient outcomes by alerting doctors and nurses when urgent
+                            care is needed. Additionally, CuraSync enables secure, real-time data exchange across hospitals, labs, pharmacies,
+                            and insurers through a blockchain-encrypted middleware API, ensuring seamless interoperability and tamper-proof
+                            health records.</p>
+                    </div>
+                </div>
+
+                <div class="col-xl-6">
+                    <div class="about-us__media d-flex flex-column flex-sm-row align-items-sm-start align-items-center justify-content-xl-end justify-content-center">
+                        <img class="img-fluid about-us__media-big-shape" src="{% static "Home/shape-big.png" %}" alt="icon not found">
+
+                        <div class="about-us__media-experience-box__wrapper text-end">
+                            <div class="about-us__media-img img1">
+                                <img class="img-fluid shape downUp" src="{% static "Home/shape-2.png" %}" alt="icon not found">
+                                <img class="img-fluid" src="{% static "Home/Chatbot_AI_Img.webp" %}" alt="icon not found">
+                                <p></br></p>
+                                <img class="img-fluid" src="{% static "Home/AI_Diagnosing.jpeg" %}" alt="icon not found">
+                            </div>
+                           
+                        </div>
+                        <div class="about-us__media-img img2">
+                            <img class="img-fluid shape upDown" src="{% static "Home/shape-1.png" %}" alt="icon not found">
+                            <img class="img-fluid" src="{% static "Home/AI_Workout_img.webp" %}" alt="icon not found">
+                            <p></p></br>
+                            <img class="img-fluid" src="{% static "Home/blockchain.jpeg" %}" alt="icon not found">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about-us area end -->
+
+    <!-- treatment-process area start -->
+    <section class="treatment-process section-space__bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section__title-wrapper treatment-process__content text-center mb-60 mb-xs-40">
+                        <h2 class="section__title mb-20 mb-xs-15 title-animation" style="perspective: 100px;"><div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform-origin: 50% 0%; transform: translate(0px, 10px); opacity: 0; visibility: hidden;">Our</div> <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform-origin: 50% 0%; transform: translate(0px, 10px); opacity: 0; visibility: hidden;">Treatment</div> <div style="position: relative; display: inline-block; translate: none; rotate: none; scale: none; transform-origin: 50% 0%; transform: translate(0px, 10px); opacity: 0; visibility: hidden;">Process</div></h2>
+                        <p class="mb-0">Veloxmed optimizes healthcare with AI-driven smart scheduling, automated triage, and blockchain-secured data sharing for seamless, efficient patient care.</p>
+                    </div>
+
+                    <div class="treatment-process__media mb-30">
+                        <img class="img-fluid" data-parallax="{&quot;scale&quot;: 1.2, &quot;smoothness&quot;: 15}" src="{% static "Home/AI_Master_img.webp" %}" alt="image not found">
+                       
+                    </div>
+                </div>
+            </div>
+
+    <section id="fourth-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-6">
+                    <div class="testimonial__media">
+                        <img class="img-fluid"  src="{% static "Home/Default_a_black_nurse_on_a_computer_in_a_lab_3.jpg" %}" alt="image not found">
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <div class="swiper testimonial__slider mt-lg-40 mt-md-40 mt-sm-40 mt-xs-40 swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
+                        <div class="swiper-wrapper" id="swiper-wrapper-57d080cef270fcce" aria-live="off" style="transform: translate3d(-1136px, 0px, 0px); transition-duration: 0ms;"><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="1" role="group" aria-label="2 / 2" style="width: 538px; margin-right: 30px;">
+                                <div class="testimonial__item">
+                                     
+
+                                    
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide swiper-slide-prev swiper-slide-duplicate-next" data-swiper-slide-index="0" role="group" aria-label="1 / 2" style="width: 538px; margin-right: 30px;">
+                                <div class="testimonial__item">
+                                     
+
+                                    <div class="testimonial__item-content mb-35 mb-xs-30">
+                                        <p class="mb-0"><h1>AI-Powered Smart Scheduling & Triage</h1></br>Auto-assigns appointments based on patient severity, specialist availability, and real-time hospital capacity.</p>
+                                    </div>
+
+                                    <div class="testimonial__item-author d-flex align-items-center">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="swiper-slide swiper-slide-prev swiper-slide-duplicate-next" data-swiper-slide-index="0" role="group" aria-label="1 / 2" style="width: 538px; margin-right: 30px;">
+                                <div class="testimonial__item">
+                                     
+
+                                    <div class="testimonial__item-content mb-35 mb-xs-30">
+                                        <p class="mb-0"><h1>Automated Patient Follow-Ups & Notifications</h1> </br> AI-driven system automates patient follow-up reminders, reducing missed appointments and readmissions.</p>
+                                    </div>
+
+                                    <div class="testimonial__item-author d-flex align-items-center">
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                            
+
+                            <div class="swiper-slide swiper-slide-prev swiper-slide-duplicate-next" data-swiper-slide-index="0" role="group" aria-label="1 / 2" style="width: 538px; margin-right: 30px;">
+                                <div class="testimonial__item">
+                                    
+                                    <div class="testimonial__item-content mb-35 mb-xs-30">
+                                    <p class="mb-0"><h1>Blockchain-powered health record system</h1></br> Universal & Secure Access – Doctors can instantly retrieve patient records from any location, ensuring seamless healthcare coordination.</p>
+                                    </div>
+
+                                    <div class="testimonial__item-author d-flex align-items-center">
+                                        
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                           
+                        <div class="swiper-slide swiper-slide-duplicate swiper-slide-next swiper-slide-duplicate-prev" data-swiper-slide-index="0" role="group" aria-label="1 / 2" style="width: 538px; margin-right: 30px;">
+                                <div class="testimonial__item">
+                                    
+                                </div>
+                            </div></div>
+                        <div class="testimonial__slider__arrow d-flex">
+                            <div class="testimonial__slider__arrow-prev" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-57d080cef270fcce">
+                                <svg width="51" height="16" viewBox="0 0 51 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0.292893 7.29289C-0.0976311 7.68342 -0.0976311 8.31658 0.292893 8.70711L6.65685 15.0711C7.04738 15.4616 7.68054 15.4616 8.07107 15.0711C8.46159 14.6805 8.46159 14.0474 8.07107 13.6569L2.41421 8L8.07107 2.34315C8.46159 1.95262 8.46159 1.31946 8.07107 0.928932C7.68054 0.538408 7.04738 0.538408 6.65685 0.928932L0.292893 7.29289ZM1 9H51V7H1V9Z" fill="#071C3C"></path>
+                                </svg>
+                            </div>
+
+                            <div class="testimonial__slider__arrow-next" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-57d080cef270fcce">
+                                <svg width="51" height="16" viewBox="0 0 51 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M50.7071 7.29289C51.0976 7.68342 51.0976 8.31658 50.7071 8.70711L44.3431 15.0711C43.9526 15.4616 43.3195 15.4616 42.9289 15.0711C42.5384 14.6805 42.5384 14.0474 42.9289 13.6569L48.5858 8L42.9289 2.34315C42.5384 1.95262 42.5384 1.31946 42.9289 0.928932C43.3195 0.538408 43.9526 0.538408 44.3431 0.928932L50.7071 7.29289ZM50 9H2.98023e-08V7H50V9Z" fill="#071C3C"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer id="footer-section" style="background-color: rgb(102, 103, 184);" class="section-relative section-top-66 section-bottom-34 page-footer bg-accent context-dark">
+    <div class="container">
+      <div class="row justify-content-md-center text-lg-start">
+        <div class="col-md-8 col-lg-12">
+          <div class="row row-50 justify-content-sm-center row-50">
+            <div class="col-sm-10 col-lg-4 text-start order-lg-3 inset-lg-left-50">
+              <h6>Newsletter</h6>
+              <hr class="text-subline">
+              <p style="color: antiquewhite;">Enter your email address to receive up-to-date news, new patient information and other useful stuff, delivered right to your inbox.</p>
+              <form class="rd-mailform" data-form-output="form-output-global" data-form-type="subscribe" method="post" action="{% url 'subscribe' %}" novalidate="novalidate">
+                {% csrf_token %}
+                <div class="form-wrap">
+                    <div class="input-group input-group-sm">
+                        <input class="form-input text-gray-darker form-control-has-validation" id="footer-subscribe-form-email" type="email" data-constraints="@Required @Email" name="email">
+                        <span class="form-validation"></span>
+                        <!-- <label class="form-label text-gray-darker rd-input-label" for="footer-subscribe-form-email">Your e-mail...</label> -->
+                        <span class="input-group-btn">
+                            <button style="border-radius: 0px 40px 40px 0px;" class="btn btn-sm btn-java" type="submit">Subscribe</button>
+                        </span>
+                    </div>
+                </div>
+            </form>
+            
+            </div>
+            <div class="col-sm-10 text-sm-start col-lg-4 order-lg-2">
+              <h6>contact us</h6>
+              <hr class="text-subline">
+              </br>
+              <div class="text-center text-xl-start">
+                <address class="contact-info d-md-inline-block text-start">
+                  <div class="p unit unit-spacing-xxs flex-row">
+                    <div class="unit-left"><span class="icon icon-xxs mdi mdi-phone text-java"></span></div>
+                    <div class="unit-body"><a class="link-gray-light" href="tel:#">(+234) 807-244-4961</a><span class="text-gray-light">, </span></div>
+                  </div>
+                  <div class="p unit flex-row unit-spacing-xxs">
+                    <div class="unit-left"><span class="icon icon-xxs mdi mdi-map-marker text-java"></span></div>
+                    <div class="unit-body"><a class="link-gray-light" href="#">16, Ajani Akingbogun Street, Egbeda, Lagos</a></div>
+                  </div>
+                  <div class="p unit unit-spacing-xxs flex-row offset-top-16">
+                    <div class="unit-left"><span class="icon icon-xxs mdi mdi-email-outline text-java"></span></div>
+                    <div class="unit-body"><a class="link-java" href="mailto:ukwedjedimeji@gmail.com">Dimroid</a></div>
+                  </div>
+                </address>
+              </div>
+            </div>
+            <div class="col-sm-10 col-lg-4 order-lg-1">
+              <!-- Footer brand-->
+              <div class="footer-brand">
+                <p style="
+                                    font-style: normal;
+                                    display: inline-block;
+                                    color: var(--rr-menu-primary);
+                                    text-transform: capitalize;
+                                    font-family: var(--rr-ff-heading);
+                                    padding: 38px 0;
+                                    font-weight: 600;
+                                    font-size: 3rem;
+                                    line-height: 23px;
+                                    color: #ffffff;
+                                ">Velox Med</p>
+              </div>
+              <div class="offset-top-50 offset-md-top-90">
+                     <div class="icon-row">
+                          <div class="icon-container"><a href=""><i class="fa-brands fa-facebook fa-2x"></i></a></div>
+                          <div class="icon-container"><a href=""><i class="fa-brands fa-twitter fa-2x"></i></a></div>
+                          <div class="icon-container"><a href=""><i class="fa-brands fa-linkedin fa-2x"></i></a></div>
+                          <div class="icon-container"><a href=""><i class="fa-brands fa-whatsapp fa-2x"></i></a></div>
+
+                     </div>
+
+                
+                
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container offset-top-50 offset-md-top-60">
+      <p class="rights text-gray text-lg-start"><span>©&nbsp;</span><span class="copyright-year">2024</span><span>.&nbsp;</span><span>All Rights Reserved</span><span>.&nbsp;</span><a class="link-gray" href="#">Privacy Policy</a></p>
+    </div>
+  </footer>
+<!-- Footer area end -->
+
+<!-- JS here -->
+<script src="{% static "Home/jquery-3.7.1.min.js" %}" ></script>
+<script src="{% static "Home/waypoints.min.js" %}" ></script>
+<script src="{% static "Home/bootstrap.bundle.min.js" %}"></script>
+<script src="{% static "Home/meanmenu.min.js" %}" ></script>
+<script src="{% static "Home/odometer.min.js" %}"></script>
+<script src="{% static "Home/swiper.min.js" %}"></script>
+<script src="{% static "Home/wow.js" %}"></script>
+<script src="{% static "Home/magnific-popup.min.js" %}"> </script>
+<script src="{% static "Home/type.js" %}"> </script>
+<script src="{% static "Home/nice-select.min.js" %}"> </script>
+<script src="{% static "Home/jquery-ui.min.js" %}"> </script>
+<script src="{% static "Home/jquery.appear.js" %}"> </script>
+<script src="{% static "Home/parallax.min.js" %}"> </script>
+<script src="{% static "Home/parallax-scroll.js" %}"> </script>
+<script src="{% static "Home/gsap.min.js" %}"> </script>
+<script src="{% static "Home/ScrollTrigger.min.js" %}"> </script>
+<script src="{% static "Home/SplitText.js" %}"> </script>
+<script src="{% static "Home/tween-max.min.js" %}"> </script>
+<script src="{% static "Home/draggable.min.js" %}"> </script>
+<script src="{% static "Home/smoothscroll.js" %}"> </script>
+<script src="{% static "Home/ajax-form.js" %}"> </script>
+<script src="{% static "Home/main.js" %}"> </script><div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"></div>
+
+
+</body></html>
+
